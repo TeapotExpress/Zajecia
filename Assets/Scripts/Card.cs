@@ -5,6 +5,9 @@ public class Card : ScriptableObject
 {
     public string rank= "";
     public string suit = "";
+    public int value;
+
+
 
     public void WhoAmI()
     {
