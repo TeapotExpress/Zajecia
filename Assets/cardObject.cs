@@ -13,7 +13,7 @@ public class cardObject : MonoBehaviour
         refreshDisplayValues();
     }
 
-    void refreshDisplayValues()
+    public void refreshDisplayValues()
     {
         gameObject.GetComponentInChildren<TMP_Text>().text = myCard.MyText();
     }
